@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "82%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
@@ -48,7 +48,7 @@
     "kuid": "ab6388b7d1dc4d00a70a038964532f20",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxProductListGnrl",
+    "parent": "FlxGeneral",
     "pf": "frmProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -47,6 +47,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f52786e528184b7498c3475e7fde774b",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "88%"
+        }
+    },
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxShoppingCart",

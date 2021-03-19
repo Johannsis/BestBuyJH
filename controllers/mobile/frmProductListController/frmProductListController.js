@@ -10,6 +10,8 @@ define({
 
   onNavigate(context){
     this.defaultConfiguration();
+    this.view.onOrientationChange = this.orientationChange;
+    this.orientationChange();
 
     if(context === null)return;
     this.newDataListBox.New = true;
@@ -163,7 +165,7 @@ define({
         data[item].FreeShippingAvailable = {isVisible:false};
       }
     }
-    
+
 
     this.view.segProductList.widgetDataMap = {imgProductThumbnail: "Image",
                                               lblProductName: "Name",
@@ -236,5 +238,23 @@ define({
   menuNavigation: function(info){
     this.view.flxProductListGnrl.setEnabled(false);
     selectTab(info, this.view.flxProductListGnrl, this.view.HamburgherMenu);
+  },
+
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu,this.view.TopBar,this.view.FlxGeneral);
+
+    let currentOrientation = kony.os.getDeviceCurrentOrientation();
+
+    if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+      this.view.flxSegmentProducts.height = "90%";
+      this.view.flxPagination.height = "10%";
+    } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+      this.view.flxSegmentProducts.height = "85%";
+      this.view.flxPagination.height = "15%";
+    } else {
+      alert("Device doesn't support Orientation Change.");
+    }
+
   }
+
 });

@@ -47,6 +47,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "b201762b873845ee907478ea21262088",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "88%"
+        }
+    },
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxStoreLocator",

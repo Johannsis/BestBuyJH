@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "82%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
@@ -48,8 +48,14 @@
     "kuid": "e8d483b931ad4080a15ab3de158e0f16",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxHomeContainer",
+    "parent": "flxHome",
     "pf": "frmHome",
+    "portrait": {
+        "height": {
+            "type": "string",
+            "value": "90%"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

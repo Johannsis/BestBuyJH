@@ -37,9 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "TopBar",
-        "flxResultType",
-        "flxNoProductsMessage",
-        "flxProductList"
+        "FlxGeneral"
     ],
     "clipbounds": true,
     "containerweight": 100,

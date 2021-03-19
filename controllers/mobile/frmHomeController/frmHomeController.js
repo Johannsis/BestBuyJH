@@ -8,6 +8,8 @@ define({
 
   onNavigate: function(){
     this.pauseNavigation();
+    this.orientationChange();
+    this.view.onOrientationChange = this.orientationChange;
     this.defaultConfiguration();
 
     // Getting the information from the cache.
@@ -18,7 +20,9 @@ define({
 
     //Default home screen view
     this.view.lblBreadCrumb.text = "Home";
-    this.view.TopBar.flxBackImage.isVisible = false;
+    this.view.TopBar.flxBackImage.setEnabled(false);
+    this.view.TopBar.imgBack.opacity = 0;
+
     this.getCategory();
   },
 
@@ -79,9 +83,10 @@ define({
     }
 
     if(this.nextInBreadCrumb.text !== null){
-      this.view.TopBar.flxBackImage.isVisible = true;
-      this.view.lblBreadCrumb.text += ` >> ${this.nextInBreadCrumb.text}`;
-      addedText.push(` >> ${this.nextInBreadCrumb.text}`);
+      this.view.TopBar.flxBackImage.setEnabled(true);
+      this.view.TopBar.imgBack.opacity = 1;
+      this.view.lblBreadCrumb.text += ` -> ${this.nextInBreadCrumb.text}`;
+      addedText.push(` -> ${this.nextInBreadCrumb.text}`);
     }
     this.nextInBreadCrumb.text = null;
 
@@ -118,7 +123,7 @@ define({
     let selectedRow = this.view.segCategories.selectedRowItems[0];
     this.saveInCache(this.currentCategory.Category);
     let currentText = this.view.lblBreadCrumb.text;
-    let countedSelections = (currentText.match(/>>/g) || []).length;
+    let countedSelections = (currentText.match(/->/g) || []).length;
     if(countedSelections == 2){
       let byCategory = {ID: selectedRow.ID,
                         TextName:selectedRow.Name,
@@ -134,6 +139,11 @@ define({
   },
 
   goBack: function(){
+    if(this.view.lblBreadCrumb.text == "Home"){
+      this.view.TopBar.flxBackImage.setEnabled(false);
+      this.view.TopBar.imgBack.opacity = 0;
+      return;
+    }
     this.deleteBreadCumbText();
     this.getInCache();
   },
@@ -143,7 +153,8 @@ define({
     let previousText = currentText.replace(addedText.pop(), "");
     this.view.lblBreadCrumb.text = previousText;
     if(this.view.lblBreadCrumb.text == "Home"){
-      this.view.TopBar.flxBackImage.isVisible = false;
+      this.view.TopBar.flxBackImage.setEnabled(false);
+      this.view.TopBar.imgBack.opacity = 0;
     }
   },
 
@@ -236,5 +247,20 @@ define({
   menuNavigation: function(info){
     this.disableScreenButtons();
     selectTab(info, this.view.flxHomeContainer, this.view.HamburgherMenu);
+  },
+
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu, this.view.TopBar, this.view.flxHome);
+
+    let currentOrientation = kony.os.getDeviceCurrentOrientation();
+
+    if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+      this.view.SearchBar.flxSearch.top = "0dp";
+    } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+      this.view.SearchBar.flxSearch.top = "10dp";
+    } else {
+      alert("Device doesn't support Orientation Change.");
+    }
   }
+
 });

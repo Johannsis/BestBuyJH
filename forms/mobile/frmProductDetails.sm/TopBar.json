@@ -71,6 +71,18 @@
                 "kuid": "a31c05f8fd7c4345b6f3b36baea77244",
                 "srcKUID": "a79e660188d64eeb9cba242e4aeba505",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0,
+                "landscape": {
+                    "Default": 0
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                }
             }
         },
         "flxBackImage": {
@@ -133,6 +145,7 @@
     "isdatareferenced": false,
     "isvisible": true,
     "kuid": "a31c05f8fd7c4345b6f3b36baea77244",
+    "landscape": {},
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

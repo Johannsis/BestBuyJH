@@ -59,7 +59,6 @@
     "_winphone10_": {},
     "_winphone8_": {},
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -80,6 +79,21 @@
                 "kuid": "f8fba94d3d3f407e8aee85ecce7eebdb",
                 "srcKUID": "a00ec139a4ad4808bfacf32dc6a1a065",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxHamburgher": {
@@ -96,6 +110,21 @@
                 "kuid": "b9e7f48dfe264bd38c1ced69697d48ca",
                 "srcKUID": "ac257705517b4e219f2277835a330051",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxMainHamburgher": {
@@ -121,6 +150,21 @@
                 "kuid": "cf5f2cf81efd4ebf8044d9d521e4c14a",
                 "srcKUID": "b23c5da7f9c04cd9a2ba88101d63f44e",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "imgCart": {

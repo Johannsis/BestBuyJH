@@ -95,6 +95,24 @@
                 "kuid": "i62ca02711e545c181883f5df3aed78f",
                 "srcKUID": "a76ab3596a9142098f8f68d69f187fa0",
                 "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "portrait": {
+                    "Default": {
+                        "type": "string",
+                        "value": "0dp"
+                    }
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
             }
         },
         "flxSearchBar": {

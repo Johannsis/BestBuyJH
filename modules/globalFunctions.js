@@ -68,3 +68,23 @@ function navigateCart(){
   kony.application.destroyForm("frmShoppingCart");
   navigateTo("frmShoppingCart");
 }
+
+function orientationChange(Hamburgher, TopBar, MainFlex){
+  let currentOrientation = kony.os.getDeviceCurrentOrientation();
+
+  if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+    TopBar.height = "8%";
+    MainFlex.height = "92%";
+    Hamburgher.flxHome.height = "10%";
+    Hamburgher.flxStores.height = "10%";
+    Hamburgher.flxCart.height = "10%";
+  } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+    TopBar.height = "12%";
+    MainFlex.height = "88%";
+    Hamburgher.flxHome.height = "14%";
+    Hamburgher.flxStores.height = "14%";
+    Hamburgher.flxCart.height = "14%";
+  } else {
+    alert("Device doesn't support Orientation Change.");
+  }
+}

@@ -3,13 +3,17 @@ define({
   cart: [],
 
   imageCollection: {images:null},
+  context: null,
 
   onNavigate: function(context){
+    this.context = context;
     this.view.TopBar.imgHambugherMenu.onTouchEnd = this.StartHamburgherAnimation;
     this.view.HamburgherMenu.flxOverlay.onTouchEnd = this.EndHamburgherAnimation;
     this.view.HamburgherMenu.flxHome.onClick = this.menuNavigation;
     this.view.HamburgherMenu.flxStores.onClick = this.menuNavigation;
     this.view.HamburgherMenu.flxCart.onClick = this.menuNavigation;
+    this.view.onOrientationChange = this.orientationChange;
+    this.orientationChange();
     this.view.flxProductDetails.setEnabled(true);
     this.view.imgArrowUp.src = "uparrowm.png";
     this.view.imgArrowDown.src = "downarrowm.png";
@@ -136,7 +140,7 @@ define({
   reviewOpenAnimation: function(){
     let self = this;
     let animationObj = kony.ui.createAnimation(
-      {"0":{"top":"77%","stepConfig":{"timingFunction":kony.anim.LINEAR}},
+      {"0":{"top":this.currentTop,"stepConfig":{"timingFunction":kony.anim.LINEAR}},
        "100":{"top":"0%","stepConfig":{"timingFunction":kony.anim.LINEAR}}});
     let animationConfig = {
       duration: 0.25,
@@ -155,7 +159,7 @@ define({
     let self = this;
     let animationObj = kony.ui.createAnimation(
       {"0":{"top":"0%","stepConfig":{"timingFunction":kony.anim.LINEAR}},
-       "100":{"top":"77%","stepConfig":{"timingFunction":kony.anim.LINEAR}}});
+       "100":{"top":this.currentTop,"stepConfig":{"timingFunction":kony.anim.LINEAR}}});
     let animationConfig = {
       duration: 0.25,
       fillMode: kony.anim.FILL_MODE_FORWARDS,
@@ -172,5 +176,69 @@ define({
   menuNavigation: function(info){
     this.view.flxProductDetails.setEnabled(false);
     selectTab(info, this.view.flxProductDetails, this.view.HamburgherMenu);
+  },
+  
+  currentTop: null,
+  currentBottom: null,
+
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu, this.view.TopBar, this.view.flxProductDetail);
+
+    let currentOrientation = kony.os.getDeviceCurrentOrientation();
+
+    if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+      if(this.view.flxIconClosed.isVisible){
+        this.view.flxReviews.top = "78%";
+      }
+      this.view.flxProductReview.height = "51%";
+      this.view.flxNoReviews.height = "51%";
+      this.view.flxProduct.height = "50%";
+      this.view.flxReview.height = "70%";
+      this.view.flxImageAndNames.height = "50%";
+      this.view.imgProduct.top = "15dp";
+      this.view.imgProduct.bottom = "5dp";
+      this.view.imgProduct.width = "100dp";
+      this.view.imgProduct.height = "100dp";
+      this.view.flxDescription.height = "30%";
+      this.view.btnAddToCart.height = "40dp";
+      this.view.lblName.bottom = "10dp";
+      this.view.lblPrice.bottom = "10dp";
+      this.view.lblAvgReview.bottom = "10dp";
+      this.view.lblNumberOfReviews.top = "10dp";
+      this.view.lblNumberOfReviews.bottom = "10dp";
+      this.view.lblTotalReviews.top = "10dp";
+      this.view.lblTotalReviews.bottom = "10dp";
+      this.view.flxIcon.height = "40dp";
+      this.view.flxIconClosed.height = "40dp";
+      this.currentTop = "78%";
+    } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+      if(this.view.flxIconClosed.isVisible){
+        this.view.flxReviews.top = "57%";
+      }
+      this.view.flxProductReview.height = "41%";
+      this.view.flxNoReviews.height = "41%";
+      this.view.flxProduct.height = "60%";
+      this.view.flxReview.height = "55%";
+      this.view.flxImageAndNames.height = "60%";
+      this.view.imgProduct.top = "3dp";
+      this.view.imgProduct.bottom = "3dp";
+      this.view.imgProduct.width = "75dp";
+      this.view.imgProduct.height = "75dp";
+      this.view.flxDescription.height = "20%";
+      this.view.btnAddToCart.height = "30dp";
+      this.view.lblName.bottom = "3dp";
+      this.view.lblPrice.bottom = "3dp";
+      this.view.lblAvgReview.bottom = "3dp";
+      this.view.lblNumberOfReviews.top = "3dp";
+      this.view.lblNumberOfReviews.bottom = "3dp";
+      this.view.lblTotalReviews.top = "3dp";
+      this.view.lblTotalReviews.bottom = "3dp";
+      this.view.flxIcon.height = "30dp";
+      this.view.flxIconClosed.height = "30dp";
+      this.currentTop = "57%";
+    } else {
+      alert("Device doesn't support Orientation Change.");
+    }
   }
+
 });

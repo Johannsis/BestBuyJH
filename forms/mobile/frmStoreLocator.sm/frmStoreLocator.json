@@ -44,7 +44,7 @@
         "needAppMenu": false
     },
     "device": "iPhoneXS",
-    "displayorientation": 1,
+    "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "frmStoreLocator",
     "info": null,
@@ -128,7 +128,7 @@
         "needAppMenu": false
     },
     "titleBarSkin": "s71cd610735040a9a1608ff20d1a8ced",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "windows8": {

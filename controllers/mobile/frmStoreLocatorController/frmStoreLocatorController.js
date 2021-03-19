@@ -1,12 +1,15 @@
 define({ 
   onNavigate:function(){
     showLoading();
+    this.view.onOrientationChange = this.orientationChange;
+    this.orientationChange();
     this.view.TopBar.imgHambugherMenu.onTouchEnd = this.StartHamburgherAnimation;
     this.view.HamburgherMenu.flxOverlay.onTouchEnd = this.EndHamburgherAnimation;
     this.view.HamburgherMenu.flxHome.onClick = this.menuNavigation;
     this.view.HamburgherMenu.flxCart.onClick = this.menuNavigation;
     this.view.HamburgherMenu.flxStores.onClick = function(){};
     this.view.TopBar.flxSearchImage.isVisible = false;
+    this.view.TopBar.flxBackImage.isVisible = false;
     this.view.flxMap.isVisible = false;
     this.view.flxStoreLocator.setEnabled(true);
     this.view.btnSearch.onClick = this.getStoresAroundCity;
@@ -111,5 +114,21 @@ define({
   menuNavigation: function(info){
     this.view.flxStoreLocator.setEnabled(false);
     selectTab(info, this.view.flxStoreLocator, this.view.HamburgherMenu);
+  },
+
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu, this.view.TopBar, this.view.flxStore);
+
+    let currentOrientation = kony.os.getDeviceCurrentOrientation();
+
+    if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+      this.view.flxSearchBar.height = "8%";
+      this.view.flxMap.height = "92%";
+    } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+      this.view.flxSearchBar.height = "12%";
+      this.view.flxMap.height = "88%";
+    } else {
+      alert("Device doesn't support Orientation Change.");
+    }
   }
 });

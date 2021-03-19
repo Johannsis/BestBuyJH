@@ -71,6 +71,27 @@
                 "kuid": "ffe4c0c70c7f4be7bc1743dd4d039fe7",
                 "srcKUID": "a79e660188d64eeb9cba242e4aeba505",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0,
+                "landscape": {
+                    "Default": 0
+                },
+                "portrait": {
+                    "Default": 0
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxBackImage": {
@@ -133,11 +154,19 @@
     "isdatareferenced": false,
     "isvisible": true,
     "kuid": "ffe4c0c70c7f4be7bc1743dd4d039fe7",
+    "landscape": {
+        "autogrowMode": 0,
+        "height": {
+            "type": "string",
+            "value": "12%"
+        }
+    },
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxShoppingCart",
     "pf": "frmShoppingCart",
+    "portrait": {},
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

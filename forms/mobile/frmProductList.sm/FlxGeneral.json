@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "92%"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "sdd4d4836f3d4303b9a3dfd5f33b2d98",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -36,19 +36,21 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblResultType"
+        "flxResultType",
+        "flxNoProductsMessage",
+        "flxProductList"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxResultType",
+    "id": "FlxGeneral",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bf6a9a80e66a4987adfee1350b6948a2",
-    "layouttype": 3,
+    "kuid": "d2640e9ee7214f6d8b840652aaa03453",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlxGeneral",
+    "parent": "flxProductListGnrl",
     "pf": "frmProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

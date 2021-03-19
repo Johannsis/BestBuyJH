@@ -59,6 +59,7 @@
     "_winphone10_": {},
     "_winphone8_": {},
     "areflexpropsreferenced": false,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -70,6 +71,21 @@
                 "kuid": "f7dcb4b262c1455faa50341655f7b563",
                 "srcKUID": "a79e660188d64eeb9cba242e4aeba505",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
             }
         },
         "flxBackImage": {
@@ -133,11 +149,13 @@
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "f7dcb4b262c1455faa50341655f7b563",
+    "landscape": {},
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxHomeContainer",
     "pf": "frmHome",
+    "portrait": {},
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

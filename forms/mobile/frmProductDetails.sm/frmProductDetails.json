@@ -44,7 +44,7 @@
         "needAppMenu": false
     },
     "device": "Pixel3",
-    "displayorientation": 1,
+    "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "frmProductDetails",
     "info": null,

@@ -88,6 +88,27 @@
                 "kuid": "b5b97cf5a6244a82bc316fee09156650",
                 "srcKUID": "a00ec139a4ad4808bfacf32dc6a1a065",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                },
+                "portrait": {
+                    "Default": {
+                        "type": "string",
+                        "value": "10%"
+                    }
+                }
             }
         },
         "flxHamburgher": {
@@ -104,6 +125,27 @@
                 "kuid": "c0f22d61ee2748038db21b4d934b1ac6",
                 "srcKUID": "ac257705517b4e219f2277835a330051",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                },
+                "portrait": {
+                    "Default": {
+                        "type": "string",
+                        "value": "10%"
+                    }
+                }
             }
         },
         "flxMainHamburgher": {
@@ -129,6 +171,27 @@
                 "kuid": "f374695a6cdb4a7c90c28853b8a13b2b",
                 "srcKUID": "b23c5da7f9c04cd9a2ba88101d63f44e",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                },
+                "portrait": {
+                    "Default": {
+                        "type": "string",
+                        "value": "10%"
+                    }
+                }
             }
         },
         "imgCart": {

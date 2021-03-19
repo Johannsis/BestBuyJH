@@ -44,7 +44,7 @@
         "needAppMenu": false
     },
     "device": "iPhoneXS",
-    "displayorientation": 1,
+    "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "frmHome",
     "info": null,

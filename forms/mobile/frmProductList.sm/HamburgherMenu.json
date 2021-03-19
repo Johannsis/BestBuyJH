@@ -79,6 +79,15 @@
                 "kuid": "a8b75d6e79574cad9d42846fbc05be3a",
                 "srcKUID": "a00ec139a4ad4808bfacf32dc6a1a065",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "12%"
+                }
             }
         },
         "flxHamburgher": {
@@ -95,6 +104,21 @@
                 "kuid": "ge3121fa050642ef9675bbc9db53a353",
                 "srcKUID": "ac257705517b4e219f2277835a330051",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxMainHamburgher": {
@@ -120,6 +144,15 @@
                 "kuid": "a2c114cc71a84af5a2b833563ece16bd",
                 "srcKUID": "b23c5da7f9c04cd9a2ba88101d63f44e",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "12%"
+                }
             }
         },
         "imgCart": {

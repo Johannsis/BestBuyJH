@@ -1,6 +1,8 @@
 define({ 
 
   onNavigate: function(context){
+    this.view.onOrientationChange = this.orientationChange;
+    this.orientationChange();
     this.view.TopBar.imgHambugherMenu.onTouchEnd = this.StartHamburgherAnimation;
     this.view.HamburgherMenu.flxOverlay.onTouchEnd = this.EndHamburgherAnimation;
     this.view.HamburgherMenu.flxHome.onClick = this.menuNavigation;
@@ -39,5 +41,9 @@ define({
   menuNavigation: function(info){
     this.view.flxProductImages.setEnabled(false);
     selectTab(info, this.view.flxProductImages, this.view.HamburgherMenu);
+  },
+  
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu, this.view.TopBar, this.view.flxImageContainer);
   }
 });

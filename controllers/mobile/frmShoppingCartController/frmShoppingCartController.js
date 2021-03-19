@@ -9,9 +9,10 @@ define({
     this.view.HamburgherMenu.flxStores.onClick = this.menuNavigation;
     this.view.HamburgherMenu.flxCart.onClick = function(){};
     this.view.flxProducts.isVisible = true;
-    this.view.flxShoppingCart.setEnabled(true);
     this.view.TopBar.flxBackImage.isVisible = false;
     this.view.TopBar.flxSearchImage.isVisible = false;
+    this.view.onOrientationChange = this.orientationChange;
+    this.orientationChange();
     this.mapData();
   },
 
@@ -108,10 +109,18 @@ define({
   },
 
   segProductAnimation:function(){
-    let deviceWidth = kony.os.deviceInfo().screenWidth;
+    let currentOrientation = kony.os.getDeviceCurrentOrientation();
+    let transformObject;
 
-    let transformObject = kony.ui.makeAffineTransform();
-    transformObject.translate(deviceWidth, 0);
+    if (currentOrientation == constants.DEVICE_ORIENTATION_PORTRAIT) {
+      transformObject = kony.ui.makeAffineTransform();
+      transformObject.translate(500, 0);
+    } else if (currentOrientation == constants.DEVICE_ORIENTATION_LANDSCAPE) {
+      transformObject = kony.ui.makeAffineTransform();
+      transformObject.translate(900, 0);
+    } else {
+      alert("Device doesn't support Orientation Change.");
+    }
 
     let animationObj ={ 
       100: { 
@@ -192,7 +201,7 @@ define({
         }
       });
     }
-    
+
   },
 
   wait: function(ms){
@@ -276,5 +285,9 @@ define({
   menuNavigation: function(info){
     this.view.flxShoppingCart.setEnabled(false);
     selectTab(info, this.view.flxShoppingCart, this.view.HamburgherMenu);
+  },
+
+  orientationChange:function(){
+    orientationChange(this.view.HamburgherMenu,this.view.TopBar, this.view.flxCart);
   }
 });

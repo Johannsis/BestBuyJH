@@ -59,7 +59,6 @@
     "_winphone10_": {},
     "_winphone8_": {},
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -80,6 +79,25 @@
                 "kuid": "ja270aa5d2464f37bb36b645cc9ba0d7",
                 "srcKUID": "a00ec139a4ad4808bfacf32dc6a1a065",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    },
+                    "height": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxHamburgher": {
@@ -96,6 +114,25 @@
                 "kuid": "cff35170fded41a3bad03a27cd5e720a",
                 "srcKUID": "ac257705517b4e219f2277835a330051",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    },
+                    "height": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "flxMainHamburgher": {
@@ -121,6 +158,25 @@
                 "kuid": "fba36b8a5e3245858df089682a13b0fc",
                 "srcKUID": "b23c5da7f9c04cd9a2ba88101d63f44e",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "12%"
+                    },
+                    "height": {
+                        "type": "string",
+                        "value": "12%"
+                    }
+                }
             }
         },
         "imgCart": {
