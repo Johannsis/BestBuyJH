@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getProductReviews" passwordencrypted="false" security="authorized_app_user" type="plainxmlserviceConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.bestbuy.com/v1/reviews(sku=$SKU)?apiKey=$YourAPIKey"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false"/>
+        <param datatype="string" defaultvalue="1000671" description="" encode="true" format="None" formatvalue="" name="SKU" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="1000671" value="1000671">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="tynkpqc4smnjf3jmxv2hunrs" description="" encode="true" format="None" formatvalue="" name="YourAPIKey" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="tynkpqc4smnjf3jmxv2hunrs" value="tynkpqc4smnjf3jmxv2hunrs">
+            <accessType></accessType>
+        </param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset defaultvalue="" id="reviews" order="" paramOrder="1" parentOrder="0" src="/reviews" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="review/reviewer/name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="rating" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="review/rating" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="title" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="review/title" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="comment" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="review/comment" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

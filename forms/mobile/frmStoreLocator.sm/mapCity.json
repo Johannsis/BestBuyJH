@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "calloutTemplateId": "ac67ecb803714613ac24df27576435e3",
+    "calloutwidth": 60,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "mapCity",
+    "info": null,
+    "invokedProperty": "maps",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b104d6e5539a48e0a33d89404cea3cf1",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "flxMap",
+    "pf": "frmStoreLocator",
+    "provider": "google",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zoomlevel": 10
+}

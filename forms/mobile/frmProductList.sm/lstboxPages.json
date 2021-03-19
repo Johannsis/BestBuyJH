@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Page",
+    "_skin_": "sd818ce46a8446639f0cf3939f7edab7",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "android": {
+        "viewType": 4
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s7bc3bbb348a4355b9e3344bc60df169",
+    "groupcells": false,
+    "id": "lstboxPages",
+    "info": null,
+    "iphone": {
+        "viewType": 0
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ie2c6afd541441e5b42471f069899abf",
+    "masterdata": [],
+    "name": "kony.ui.ListBox",
+    "parent": "flxPagination",
+    "pf": "frmProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "ListBox"
+}

@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6ae01927ec84e488f74348dca2f6694",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "imgStores",
+        "lblStores"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "sef1b1afb9f24f2b97bedbeb93cca5f3",
+    "id": "flxStores",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b23c5da7f9c04cd9a2ba88101d63f44e",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxHamburgher",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

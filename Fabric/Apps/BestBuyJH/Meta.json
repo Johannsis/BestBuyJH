@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "BestBuyJH",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "BestBuyJH",
+    "version" : "1.0",
+    "etag" : "adf68d86-bfed-4d52-8337-3fdb50784b28"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

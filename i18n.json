@@ -1,0 +1,51 @@
+{
+    "keys": [
+        "Add To Cart",
+        "No reviews",
+        "Number of reviews"
+    ],
+    "locales": {
+        "de": {
+            "i18nStrings": {
+                "Add To Cart": "In Den Warenkorb",
+                "No reviews": "Für dieses Produkt sind keine Bewertungen verfügbar.",
+                "Number of reviews": "Anzahl der Bewertungen:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en": {
+            "i18nStrings": {
+                "Add To Cart": "Add To Cart",
+                "No reviews": "There are no reviews available for this product.",
+                "Number of reviews": "Number of reviews:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es": {
+            "i18nStrings": {
+                "Add To Cart": "Agregar Al Carrito",
+                "No reviews": "No hay reseñas disponibles para este producto.",
+                "Number of reviews": " Número de reseñas:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

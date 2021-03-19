@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s32998bccd784e03b3bad9001019ddf9",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "HamburgherMenu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a4c8391eaff84592994966f89a7a01da",
+                "srcKUID": "a90b0827b72c474fb79fb5d90ddb8a54",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxCart": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gefe758be5b94b37badfa97f539fd6cd",
+                "srcKUID": "a00ec139a4ad4808bfacf32dc6a1a065",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHamburgher": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb1f4516a9a8416fbff7d53d64969a9a",
+                "srcKUID": "cfb309c0dca3474392968ab64f288221",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad94ebe440b448de804dd07bd522c1a7",
+                "srcKUID": "ac257705517b4e219f2277835a330051",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainHamburgher": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d6cc3de56efd41179cdefa2cc2ab51be",
+                "srcKUID": "i0ccaae10b73458c93330ed29b1fc061",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxOverlay": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hd5c848328904389b7dae28945a23537",
+                "srcKUID": "e95ded15a3c14ad4821657602be445a0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxStores": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j4e19e668edb487a8752f2c04fcec574",
+                "srcKUID": "b23c5da7f9c04cd9a2ba88101d63f44e",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgCart": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i883da1fa7e649d3bca7e4b3d3bdfd0c",
+                "srcKUID": "c6dd153508804aa7891c31a7404dddee",
+                "wType": "Image"
+            },
+            "src": "appmenucart.png"
+        },
+        "imgHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j7b4ad357c0d451f9bd6466ec4a87e2a",
+                "srcKUID": "c20130cef65b46a1b7d9582dbc9ad467",
+                "wType": "Image"
+            },
+            "src": "appmenuhome.png"
+        },
+        "imgStores": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a45878db60664cc9b774736a97688cdd",
+                "srcKUID": "jd93b478261442de862170c273ea6a8b",
+                "wType": "Image"
+            },
+            "src": "appmenustore.png"
+        },
+        "lblCart": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ha6a274b879d49668a00682d3e0d629f",
+                "srcKUID": "ab4a2149c78646bfa52e2c0bab241865",
+                "wType": "Label"
+            }
+        },
+        "lblHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3fae851510649aab4e059d6197f0419",
+                "srcKUID": "jd9a0c3cb32d4eca86b478a9959f833d",
+                "wType": "Label"
+            }
+        },
+        "lblStores": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1aa6b3e9c864e65aa3b0aee1046fe6f",
+                "srcKUID": "cf3d158ab6a243008aada2fbd230b559",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "HamburgherMenu",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a4c8391eaff84592994966f89a7a01da",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxBg",
+    "pf": "frmProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a90b0827b72c474fb79fb5d90ddb8a54",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

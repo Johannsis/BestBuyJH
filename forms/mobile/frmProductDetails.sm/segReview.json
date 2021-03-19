@@ -1,0 +1,293 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        },
+        {
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5.png"
+            },
+            "lblComment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment"
+            },
+            "lblSubmitBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Submitted"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segReview",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ja2def4908a34b0a9e2561630227f3be",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxReview",
+    "pf": "frmProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "i2c24906b10741b9aef628a65f430d3e",
+    "rowcounter": 9,
+    "rowfocusskin": "se62bf00607f42688713abb9fb0e6660",
+    "rowskin": "s0d538377dcf4aa8aceb9e293989e50b",
+    "rowtemplate": "flxReviews",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s616dd6bd4e143c7945666c47f639f54",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1025,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxReviewContent": "flxReviewContent",
+        "flxReviews": "flxReviews",
+        "imgRating": "imgRating",
+        "lblComment": "lblComment",
+        "lblSubmitBy": "lblSubmitBy",
+        "lblTitle": "lblTitle"
+    },
+    "zindex": 2
+}

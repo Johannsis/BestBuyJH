@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "<Select a value>",
+    "_skin_": "sf8e22ed6f4644a39903a8a8af1fbbbe",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "sdb098d4cf48467984add8a42cb17f7f",
+    "groupcells": false,
+    "id": "lstbxFilterBy",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b88e30412e944865b520dba202517726",
+    "masterdata": [
+        [
+            "null",
+            "<Select a value>"
+        ],
+        [
+            "&onSale=true",
+            "On sale"
+        ],
+        [
+            "&onSale=false",
+            "Not on sale"
+        ],
+        [
+            "&new=true",
+            "New"
+        ],
+        [
+            "&new=false",
+            "Not new"
+        ],
+        [
+            "&freeShipping=true",
+            "Free Shipping"
+        ],
+        [
+            "&freeShipping=false",
+            "No Free Shipping"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxFilter",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "null",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "null",
+        "<Select a value>"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}

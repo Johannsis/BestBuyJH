@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="XML" url="https://api.bestbuy.com/" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>false</jsonpath>
+</endpoint>

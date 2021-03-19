@@ -1,0 +1,148 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9c44521e75d406b9e6a47ea748957bd",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "TopBar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b1d67a2a731643d3a017cef760ab794c",
+                "srcKUID": "a79e660188d64eeb9cba242e4aeba505",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxBackImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fd890692b3a54968badceed26497c1e6",
+                "srcKUID": "ae500eb5f79d425882a3060b59bad969",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ffe9e17dc405461396a93fbd4c8beeaf",
+                "srcKUID": "gd53d4c3bcc045fcbb6b8e97c665cf4a",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc3b9da5d832435e9d765bfde8618dd5",
+                "srcKUID": "c63b6e775e14494ea2dc636a35cc9bba",
+                "wType": "Image"
+            },
+            "src": "ic_menu_back.png"
+        },
+        "imgHambugherMenu": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b47af787a5294387bab59a8767ed6eb2",
+                "srcKUID": "eb2755c7dd154e5098ed50bdc415d831",
+                "wType": "Image"
+            },
+            "src": "humburger.png"
+        },
+        "imgLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e05f74e25e8f417e8b272f6b8ec92cac",
+                "srcKUID": "b629c1637ff24bb6aa3f2232d0509f89",
+                "wType": "Image"
+            },
+            "src": "bestbuy.png"
+        },
+        "imgSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3e632a680a540a6acde6d0519c968da",
+                "srcKUID": "d70ef9b5aea74687a97694c162dd5cdf",
+                "wType": "Image"
+            },
+            "src": "search.png"
+        }
+    },
+    "enablescrolling": true,
+    "id": "TopBar",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "b1d67a2a731643d3a017cef760ab794c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxProductListGnrl",
+    "pf": "frmProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a79e660188d64eeb9cba242e4aeba505",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,135 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgProductThumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblFreeShipping": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Product Name"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$$ Price"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "e9835017a2044177b9a44d8cab5a66cf",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProductList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f501637e205744a8a8ce9320e707ba45",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegmentProducts",
+    "pf": "frmProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c2e1c02d0d4d490686725fbd49b42350",
+    "rowcounter": 0,
+    "rowfocusskin": "s402b41407d348aea353dff4be29f1d4",
+    "rowskin": "s8d47b2bd1604d2da1b751fed542b8d1",
+    "rowtemplate": "flxProductList",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s616dd6bd4e143c7945666c47f639f54",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxFreeShipping": "flxFreeShipping",
+        "flxProductDetails": "flxProductDetails",
+        "flxProductImage": "flxProductImage",
+        "flxProductList": "flxProductList",
+        "flxProducts": "flxProducts",
+        "imgProductThumbnail": "imgProductThumbnail",
+        "lblFreeShipping": "lblFreeShipping",
+        "lblProductName": "lblProductName",
+        "lblProductPrice": "lblProductPrice",
+        "lblProductRating": "lblProductRating"
+    }
+}
