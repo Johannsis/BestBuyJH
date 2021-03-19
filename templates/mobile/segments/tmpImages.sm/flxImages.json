@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sdd4d4836f3d4303b9a3dfd5f33b2d98",
+    "_skin_": "sf988abc91f24398bfa5046b73e3d082",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -46,7 +46,9 @@
             "name": "flxImagesController"
         }
     },
+    "disabledSkins": {},
     "enablescrolling": true,
+    "focusskin": "s6f8d32473704c178b290399ba87ecd0",
     "id": "flxImages",
     "info": null,
     "isTemplate": true,
